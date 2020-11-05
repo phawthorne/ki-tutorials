@@ -101,9 +101,9 @@ IA,E,8
 * [Pandas](https://pandas.pydata.org/): package for dealing with tabular data. Allows grouping, reshaping, filling, joining, plotting, ect...
 * [Matplotlib](https://matplotlib.org/): package for making plots/figures. Pretty straightforward to use for basic things, and with some powerful (but complex) options for customized plots.
 * [Numpy](https://numpy.org/): provides fast numerical arrays and matrices.
-* [Scipy](): Very wide-ranging package covering things like linear algebra, FFTs, interpolation, and some stats. 
-* [Geopandas](): Awesome package for working with shapefiles. Access the data as with Pandas, perform spatial operations, and create maps. 
-* [Pygeoprocessing](): A NatCap-created package for working with spatial datasets (rasters, particularly). A bit complicated, but powerful - it is the engine of most NatCap models.
-* [Jupyter](): A "notebook" based system for writing python code - this is an alternative to using something like VSCode. Can be useful for communication because it allows results (e.g. figures) and text blocks interspersed with the code. Also useful for quick prototyping sometimes.
+* [Scipy](https://scipy.org/): Very wide-ranging package covering things like linear algebra, FFTs, interpolation, and some stats. 
+* [Geopandas](https://geopandas.org/): Awesome package for working with shapefiles. Access the data as with Pandas, perform spatial operations, and create maps. 
+* [Pygeoprocessing](https://github.com/natcap/pygeoprocessing): A NatCap-created package for working with spatial datasets (rasters, particularly). A bit complicated, but powerful - it is the engine of most NatCap models.
+* [Jupyter](https://jupyter.org/): A "notebook" based system for writing python code - this is an alternative to using something like VSCode. Can be useful for communication because it allows results (e.g. figures) and text blocks interspersed with the code. Also useful for quick prototyping sometimes.
 
 We didn't install all of these to start. To add new packages, make sure you have the right environment activated (e.g. `conda activate py38`), and then type `conda install PACKAGE`. You can also list multiple packages, and conda will ensure that the selected versions are mutually compatible. 
