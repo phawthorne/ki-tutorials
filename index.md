@@ -15,6 +15,7 @@ We will use the version of Python available from [Anaconda](https://www.anaconda
     - This is the "miniconda" version, which provides a minimal set of packages to build on rather than some hundreds of things you might not need. 
 * Follow the appropriate instructions for your operating system [here](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda) to open a command line window.
     - Windows: open "Anaconda Prompt" from the start menu
+        + Run `conda init powershell`. This will set up the path variables to work in the PowerShell terminals outside this Anaconda Prompt exe (in particular, this is required to get this working in VSCode).
     - Mac: open the "Termial" app
 * Create a new python environment: type `conda create --name py38 python=3.8` in the command line. 
     - An "environment" is a version of python on your computer that has a particular set of packages installed. Typically, you can just have one main environment, but sometimes you might have a project that depends on having specific versions of packages that you want to keep separate from your main environment.
