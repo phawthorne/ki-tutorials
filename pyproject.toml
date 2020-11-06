@@ -1,0 +1,5 @@
+[tool.portray]
+include_reference_documentation = false
+
+[[tool.portray.mkdocs.nav]]
+Home = "docs/index.md"
