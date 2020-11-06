@@ -19,7 +19,7 @@ We will use the version of Python available from [Anaconda](https://www.anaconda
 * Create a new python environment: type `conda create --name py38 python=3.8` in the command line. 
     - An "environment" is a version of python on your computer that has a particular set of packages installed. Typically, you can just have one main environment, but sometimes you might have a project that depends on having specific versions of packages that you want to keep separate from your main environment.
 * Activate the environment: type `conda activate py38`.
-* Specify that we'd like to get packages from [conda-forge](https://conda-forge.org/): type `conda config --add chanels conda-forge`, followed by `conda config --set channel_priority strict`. 
+* Specify that we'd like to get packages from [conda-forge](https://conda-forge.org/): type `conda config --add channels conda-forge`, followed by `conda config --set channel_priority strict`. 
     - Conda-forge is a community-driven portal for accessing python packages. They put a ton of work into ensuring a successful installation process and compatibility between different package versions. These commands will make conda-forge the default download site. 
 * Install some useful packages: `conda install numpy pandas matplotlib`.
     - This will also install a lot of other packages that these ones depend on. Answer "Y" if it asks for confirmation.
