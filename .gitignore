@@ -1,5 +1,6 @@
 *.code-workspace
 *.DS_Store
 *output.csv
+.vscode
 
 **__pycache__

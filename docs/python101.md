@@ -6,6 +6,7 @@ This tutorial aims to get you set up with a working installation of Python on yo
 
 ### Pieces of the puzzle:
 We're going to install 3 main things in this tutorial: conda, Python, and VSCode. Here is how to think about these pieces from the perspective of Matlab/R:
+
 * Conda: This is like the application's installer combined with the "package" or "toolbox" download window. We'll download this first, then use it to download python and install some add-ons (packages) that provide more specialized tools (e.g. pandas, which provides some excellent tools for working with csvs and other tabular data). When we need to add new packages later, or to check for updates to existing packages, we'll do this through conda. 
 * VSCode: This is equivalent to the Matlab or RStudio window - it has script editors, a terminal for running code, a file browser, etc... 
 * Python: This is the backend that runs the code and sends results back to VSCode or writes out files. While it is possible to open up python and type commands into the prompt, you will rarely do this - instead you'll write and run scripts using VSCode.
@@ -27,7 +28,7 @@ We will use the version of Python available from [Anaconda](https://www.anaconda
 * Follow the appropriate instructions for your operating system [here](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda) to open a command line window.
     - Windows: open "Anaconda Prompt" from the start menu
         + Run `conda init powershell`. This will set up the path variables to work in the PowerShell terminals outside this Anaconda Prompt exe (in particular, this is required to get this working in VSCode).
-    - Mac: open the "Termial" app
+    - Mac: open the "Terminal" app
 * Create a new python environment: type `conda create --name py38 python=3.8` in the command line. 
     - An "environment" is a version of python on your computer that has a particular set of packages installed. Typically, you can just have one main environment, but sometimes you might have a project that depends on having specific versions of packages that you want to keep separate from your main environment.
 * Activate the environment: type `conda activate py38`.

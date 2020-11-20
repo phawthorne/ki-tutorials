@@ -2,4 +2,8 @@
 include_reference_documentation = false
 
 [[tool.portray.mkdocs.nav]]
-Home = "docs/index.md"
+Home = "README.md"
+
+[[tool.portray.mkdocs.nav]]
+    [[tool.portray.mkdocs.nav."Getting Started"]]
+    "Python" = "docs/python101.md"
