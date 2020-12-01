@@ -7,3 +7,13 @@ Home = "README.md"
 [[tool.portray.mkdocs.nav]]
     [[tool.portray.mkdocs.nav."Getting Started"]]
     "Python" = "docs/python101.md"
+
+    [[tool.portray.mkdocs.nav."Getting Started"]]
+    "GitHub" = "docs/github101.md"
+
+[[tool.portray.mkdocs.nav]]
+    [[tool.portray.mkdocs.nav."Best Practices"]]
+    "RST Guidelines" = "docs/rst-guidelines.md"
+
+    [[tool.portray.mkdocs.nav."Best Practices"]]
+    "Articles" = "docs/best-practices/articles.md"
