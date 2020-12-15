@@ -83,6 +83,8 @@ On your computer:
 * .gitignore files
 * Set up a project gh-pages to serve a webpage
 
+## jamie is inserting this key comment
+
 ## Version control/github terms
 + Repository
 + Clone
