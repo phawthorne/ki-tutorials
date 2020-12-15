@@ -69,6 +69,15 @@ After you click the button, you'll be taken to the repository's page. There's a 
 * Reload the repository page on github to see the changes. 
 
 ## Step 3: Create a repository for a project you've already started
+The process is slightly different when you want to start using github for a project you've already started.
+
+On your computer:
+* Navigate to the project folder (inside the top-level folder for the project) in the terminal.
+* Run `git init`. This sets up a local repository in the folder.
+* Create file in the folder called .gitignore. You'll probably want to add some things to this file to exclude certain filetypes or folders from the repository.
+* Either from your editor or the command line, add project files to be staged and make your initial commit.
+
+
 
 ## Next Steps:
 * .gitignore files
