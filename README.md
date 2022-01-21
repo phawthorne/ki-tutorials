@@ -5,6 +5,7 @@ From the repo page, click *[here](https://phawthorne.github.io/ki-tutorials/)* t
 ## Getting started
 * [Python 101](docs/python101)
 * [Github 101](docs/github101)
+* [MSI 101](docs/msi101)
 
 ## Scientific software best practices
 * [Articles](docs/best-practices/articles)

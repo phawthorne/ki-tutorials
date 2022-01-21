@@ -11,6 +11,9 @@ Home = "README.md"
     [[tool.portray.mkdocs.nav."Getting Started"]]
     "GitHub" = "docs/github101.md"
 
+    [[tool.portray.mkdocs.nav."Getting Started"]]
+    "MSI" = "docs/msi101.md"
+
 [[tool.portray.mkdocs.nav]]
     [[tool.portray.mkdocs.nav."Best Practices"]]
     "RST Guidelines" = "docs/rst-guidelines.md"
